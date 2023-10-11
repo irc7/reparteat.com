@@ -761,7 +761,7 @@ class Supplier extends System {
 					where true 
 					and IDREPARTIDOR = " .$rep->ID . " 
 					and SEND_START = '" .$order->SEND_START . "' and SEND_FINISH = '" .$order->SEND_FINISH . "' 
-					and STATUS > 2 and STATUS < 6";
+					and STATUS > 2 and STATUS < 6 and IDZONE = " . $idZone;
 			$r = checkingQuery($connectBD, $q);
 			$row = mysqli_fetch_object($r);
 			
