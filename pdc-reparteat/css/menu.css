@@ -1,0 +1,153 @@
+#nav {
+	height:25px; 
+	background:#666; 
+	color:#fff; 
+	/*text-shadow:1px 1px #888;*/ 
+	z-index:1000;
+	left:0px;
+}
+.menu {
+	list-style:none; 
+	font-size:13px; 
+	text-align:center; 
+	margin:0px !important;
+	padding:0px !important;
+	width:975px;
+}
+.menu a {
+	float:left; 
+	color:#fff; 
+	text-decoration:none; 
+	width:auto;
+	height:21px; 
+	padding-top:4px;
+	background:#666; 
+	font-size:14px;
+}
+.menu a.confg {
+	background:transparent;
+	padding:0px;
+	
+}
+.menu a.confg:hover {
+	background-color:#9c9c7a;
+}
+
+
+.menu span {
+	float:left; 
+	color:#fff; 
+	text-decoration:none; 
+	width:auto; 
+	height:21px;
+	background:#666; 
+	padding:4px 14px 0px 13px;
+	font-size:12px;
+}
+.menu span.penult {
+	padding:4px 9px 0px 9px;
+}
+
+.menu span:hover {
+	color:#fff;
+	background:#9c9c7a; 
+}
+
+.menu li.level1 {
+	position:relative; 
+	float:left;
+	left:0px;
+	/*width:189px;*/
+	z-index:1000;
+	border-right:1px solid #9c9c7a; 
+}
+
+
+/*LEVEL 2*/
+
+.menu ul {
+	display:none; 
+	position:absolute; 
+	font:normal 11px Helvetica, Arial, "Trebuchet MS", sans-serif; 
+	top:25px; 
+	left:0; 
+	background:#9c9c7a; 
+	list-style:none;
+	margin:0px !important;
+	padding:0px !important;
+}
+.menu ul li {
+	float:none; 
+	border-bottom:1px solid #ccc; 
+	width:155px;
+}
+.menu ul li a, 
+li.menuhover li a, 
+li.menuhover li.menuhover li a {
+	float:none; 
+	display:block; 
+	background:#9c9c7a; 
+	min-height:20px;
+	height: auto; 
+	padding-top:5px;
+	text-align: left;
+	font-size:11px;
+	width: 152px;
+	padding-left:3px;
+}
+.menu ul li a:hover, 
+li.menuhover li a:hover, 
+li.menuhover li.menuhover li a:hover {
+	background:#666; 
+	color:#fff;
+}
+.menu ul li span, 
+li.menuhover li span, 
+li.menuhover li.menuhover li span {
+	float:none; 
+	display:block; 
+	background:#9c9c7a; 
+	height:20px; 
+	padding-top:5px;
+	text-align: left;
+	font-size:11px;
+	width: 155px;
+	padding-left:3px;
+}
+
+/*LEVEL 3*/
+
+.menu ul ul {
+	left:147px; 
+	top:0px;
+}
+.menu li.submenu {
+	font-weight:bold;
+}
+.menu li.noborder {
+	border-top:none;
+}
+li.menuhover a, 
+li.menuhover li.menuhover a {
+	color:#fff; 
+	background:#9c9c7a;
+}
+li.menuhover span, 
+li.menuhover li.menuhover span {
+	color:#fff; 
+	background:#9c9c7a;
+}
+
+/*DESPLEGABLE DE CONTACTO*/
+
+#info {
+	width:187px; 
+	background:#eee
+}
+#info li {
+	width:187px; 
+	border-top:none; 
+	padding:8px 10px; 
+	text-shadow:1px 1px #fff; 
+	text-align:left;
+}

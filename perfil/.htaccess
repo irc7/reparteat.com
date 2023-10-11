@@ -1,0 +1,48 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteBase /perfil
+	#Serve Alternate Default Index Page 
+	DirectoryIndex index.php
+	Options All -Indexes
+	
+	RewriteCond %{HTTP_USER_AGENT} .*DotBot.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Gigabot.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Ezooms.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SISTRIX.* [OR]
+	
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+
+	
+	RewriteRule ^inicio/?$ index.php?view=home [L]
+#iniciar sesion
+	RewriteRule ^iniciar-sesion/?$ login.php [L]
+#cerrar sesion
+	RewriteRule ^cerrar-sesion/?$ logout.php [L]
+#crear cuenta
+	RewriteRule ^crear-cuenta/?$ register.php [L]
+#recuperar contraseña
+	RewriteRule ^recuperar-contrasena/?$ recover.php [L]	
+#actualizar pedido
+	RewriteRule ^actualizar-pedido/?$ template/modules/order/actionstatus.php [L]	
+#editar - pedido
+	RewriteRule ^editar-pedido/?$ template/modules/order/editorder.php [L]	
+#cambiar repartidor
+	RewriteRule ^cambiar-repartidor/?$ template/modules/order/changerep.php [L]		
+#confirmacion		
+	RewriteRule ^confirmacion/?$ template/modules/user/confirm.php [L]
+	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^([a-zA-Z0-9-]*+)/([a-zA-Z0-9-]*+)/?$ index.php?view=$1&module=$2&%1 [L]		
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^([a-zA-Z0-9-]*+)/([a-zA-Z0-9-]*+)/([0-9-]*+)/?$ index.php?view=$1&module=$2&id=$3&%1 [L]		
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^([a-zA-Z0-9-]*+)/([a-zA-Z0-9-]*+)/([0-9-]*+)/([0-9-]*+)/?$ index.php?view=$1&module=$2&id=$3&idview=$4&%1 [L]		
+
+</IfModule>
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+

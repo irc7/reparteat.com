@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.separador_header {
+	margin-top: 0px !important;
+}
+
+.cp_col1 {
+	width:260px !important;
+	
+}
+#form_login {
+	margin-left: 30px;
+}
+.cp_mnu_title {
+	width:100%;
+}
+.cp_table25_ie {
+	margin:0px !important;
+}
+.cp_table60_ie {
+	width:30px !important;
+}
+.new_section_ie {
+	margin: 21px !important;
+}
+input[type='radio'] {
+	float:left;
+}
+.align_ie {
+	width: 190px;	
+}
+.save_ie1 {
+	width:60px !important;
+}
+.save_ie2 {
+	width:20px !important;
+}
+.save_ie3 {
+	width:10px !important;
+}
+.new_user_ie {
+	margin-left:8px !important;
+}
+.m1 {
+	position:absolute;
+	margin-left:-690px;
+}
+.m2 {
+	position:absolute;
+	margin-left:-650px;
+}
+.cp_mnu_title {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.cp_title_name {
+	margin-left:10px !important; 
+}
+.title_block {
+	width:673px;
+}
+.title_header_mod {
+	width:715px;	
+}
+.cp_control_paragraphs {
+	margin-left: 0px;
+}
+.view_security_on {
+	margin-left: -192px !important;
+}
+.cp_mnu_title {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+

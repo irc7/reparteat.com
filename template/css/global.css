@@ -1,0 +1,508 @@
+@font-face {
+	font-family: "Futura Bold";
+	src: url('../fonts/web/original_FuturaStd-CondensedBold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-CondensedBold.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-CondensedBold.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-CondensedBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Futura Bold Oblique";
+	src: url('../fonts/web/original_FuturaStd-CondensedBoldObl.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-CondensedBoldObl.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-CondensedBoldObl.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-CondensedBoldObl.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Futura Regular";
+    src: url('../fonts/web/original_FuturaStd-Condensed.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-Condensed.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-Condensed.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-Condensed.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Futura Regular Oblique";
+    src: url('../fonts/web/original_FuturaStd-CondensedOblique.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-CondensedOblique.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-CondensedOblique.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-CondensedOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Futura Light";
+	src: url('../fonts/web/original_FuturaStd-CondensedLight.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-CondensedLight.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-CondensedLight.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-CondensedLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Futura Light Oblique";
+	src: url('../fonts/web/original_FuturaStd-CondensedLightObl.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_FuturaStd-CondensedLightObl.woff') format('woff'),
+         url('../fonts/web/original_FuturaStd-CondensedLightObl.ttf') format('truetype'),
+         url('../fonts/web/original_FuturaStd-CondensedLightObl.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Arial R";
+	src: url('../fonts/arial/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/arial/ArialRoundedMTBold.woff') format('woff'),
+         url('../fonts/arial/ArialRoundedMTBold.ttf') format('truetype'),
+         url('../fonts/arial/ArialRoundedMTBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Arimo";
+	src: url('../fonts/web/original_Arimo-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_Arimo-Regular.woff') format('woff'),
+         url('../fonts/web/original_Arimo-Regular.ttf') format('truetype'),
+         url('../fonts/web/original_Arimo-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "Arimo Bold";
+	src: url('../fonts/web/original_Arimo-Bold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_Arimo-Bold.woff') format('woff'),
+         url('../fonts/web/original_Arimo-Bold.ttf') format('truetype'),
+         url('../fonts/web/original_Arimo-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Arimo Italic";
+	src: url('../fonts/web/original_Arimo-Italic.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_Arimo-Italic.woff') format('woff'),
+         url('../fonts/web/original_Arimo-Italic.ttf') format('truetype'),
+         url('../fonts/web/original_Arimo-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Arimo BoldItalic";
+	src: url('../fonts/web/original_Arimo-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/web/original_Arimo-BoldItalic.woff') format('woff'),
+         url('../fonts/web/original_Arimo-BoldItalic.ttf') format('truetype'),
+         url('../fonts/web/original_Arimo-BoldItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+	.arial {
+		font-family: 'Arial R', Arial, sans-serif;
+	}
+	.title {
+		font-family: 'Futura Regular', Arial, sans-serif;
+	}
+	.titleOblique {
+		font-family: 'Futura Regular Oblique', Arial, sans-serif;
+	}
+	.titleLight {
+		font-family: 'Futura Light', Arial, sans-serif;
+	}
+	.titleLightOblique {
+		font-family: 'Futura Light Oblique', Arial, sans-serif;
+	}
+	.titleBold {
+		font-family: 'Futura Bold', Arial, sans-serif;
+	}
+	.titleBoldOblique {
+		font-family: 'Futura Bold', Arial, sans-serif;
+	}
+	.textBox {
+		font-family: 'Arimo', Arial, Verdana, serif;
+	}
+	.textBoxBold {
+		font-family: 'Arimo Bold', Arial, Verdana, serif;
+	}
+	.textBoxItalic {
+		font-family: 'Arimo Italic', Arial, Verdana, serif;
+	}
+	.textBoxBoldItalic {
+		font-family: 'Arimo BoldItalic', Arial, Verdana, serif;
+	}
+a,
+a:active,
+a:focus,
+a:active {
+	text-decoration: none !important;
+}
+.transitionFlash {
+	-webkit-transition: 150ms all;
+	-moz-transition: 150ms all;
+	-ms-transition: 150ms all;
+	-o-transition: 150ms all;
+	transition: 150ms all;
+}
+.transition {
+	-webkit-transition: 300ms all;
+	-moz-transition: 300ms all;
+	-ms-transition: 300ms all;
+	-o-transition: 300ms all;
+	transition: 300ms all;
+}
+.transitionSlow {
+	-webkit-transition: 600ms all;
+	-moz-transition: 600ms all;
+	-ms-transition: 600ms all;
+	-o-transition: 600ms all;
+	transition: 600ms all;
+}
+.transitionVerySlow {
+	-webkit-transition: 2000ms all;
+	-moz-transition: 2000ms all;
+	-ms-transition: 2000ms all;
+	-o-transition: 2000ms all;
+	transition: 2000ms all;
+}
+.shadow {
+	box-shadow: 0px 0px 10px #666;
+   -webkit-box-shadow: 0px 0px 10px #666;
+   -moz-box-shadow: 0px 0px 10px #666;
+}
+.strong {
+	font-weight:bold;
+}
+.pointer {
+	cursor:pointer;
+}
+	 
+.title p {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	padding:0px;
+	margin:0px;
+}
+
+:root {
+  --green: #009975;
+  --yellow: #e8b400;
+  --danger: #e74a3b;
+  --danger-strong: #a11003;
+}
+.danger {
+	color:#e74a3b;
+}
+.bgDanger {
+	background-color:#e74a3b;
+}
+.corporativeColor {
+	color:#009975;
+}
+.orange {
+	color:#ee7d0c;
+}
+.bgOrange {
+	background-color:#ee7d0c;
+}
+.green {
+	color:#009975;
+}
+.bgGreen {
+	background-color:#009975;
+}
+.yellow {
+	color:#e8b400;
+}
+.bgYellow {
+	background-color:#e8b400;
+}
+.white {
+	color:#ffffff;
+}
+.bgWhite {
+	background-color:#ffffff;
+}
+.black {
+	color:#000000;
+}
+.bgBlack {
+	background-color:#000000;
+}
+.bgWhiteOpacity {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.73) 17%, rgba(255,255,255,0.66) 35%, rgba(255,255,255,0.55) 62%, rgba(255,255,255,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(17%,rgba(255,255,255,0.73)), color-stop(35%,rgba(255,255,255,0.66)), color-stop(62%,rgba(255,255,255,0.55)), color-stop(100%,rgba(255,255,255,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.73) 17%,rgba(255,255,255,0.66) 35%,rgba(255,255,255,0.55) 62%,rgba(255,255,255,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+}
+.bgBlackOpacity {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.3) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.3))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.3) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.3) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.3) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+}
+.grayNormal {
+	color:#666666;
+}
+.bgGrayNormal {
+	background-color:#666666;
+}
+.grayStrong {
+	color:#333333;
+}
+.bgGrayStrong {
+	background-color:#333333;
+}
+.graySemiLight {
+	color:#aaaaaa;
+}
+.bgGraySemiLight {
+	background-color:#aaaaaa;
+}
+.grayLight {
+	color:#ededed;
+}
+.bgGrayLight {
+	background-color:#ededed;
+}
+.bgNone {
+	background:transparent;
+}
+.mayuscula{
+	text-transform:uppercase;
+}
+.textShadow {
+	text-shadow: 0px 0px 3px #666;
+}
+.textShadowLight {
+	text-shadow: 0px 0px 10px #ededed;
+}
+.textRight {
+	text-align:right;
+}
+.textLeft {
+	text-align:left;
+}
+.textCenter {
+	text-align:center;
+}
+.floatLeft {
+	float:left !important;
+}
+.floatRight {
+	float:right !important;
+}
+.img-desaturada {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.table-cell {
+	display:table-cell;
+	vertical-align:top;
+}
+.iconBig {
+	font-size:35px;
+}
+.iconMiddle {
+	font-size:28px;
+}
+.iconSmall {
+	font-size:20px;
+}
+.separator {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 0px;
+}
+.separator1 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 1px
+}
+.separator5 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 5px
+}
+.separator10 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 10px
+}
+.separator15 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 15px
+}
+.separator20 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 20px
+}
+.separator25 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 25px
+}
+.separator30 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 30px
+}
+.separator45 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 45px;
+}
+.separator50 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 50px;
+}
+.separator65 {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 65px;
+}
+.separatorLine {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 1px;
+	margin:10px 0px;
+}
+.separatorLineBold {
+	display:block;
+	clear:both;
+	width:100%;
+	height: 5px;
+	margin:10px 0px;
+}
+.no-padding {
+	padding:0px !important;
+}
+.no-margin {
+	margin:0px !important;
+}
+.total-block {
+	width:100%;
+	height:100%;
+}
+.border-right-bottom {
+	-webkit-border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	border-radius: 0px 0px 10px 0px;
+}		
+.shadow {
+    box-shadow: 0px 0px 10px #666;
+    -webkit-box-shadow: 0px 0px 10px #666;
+    -moz-box-shadow: 0px 0px 10px #666;
+}
+.shadowLight {
+    box-shadow: 0px 0px 10px #ededed;
+    -webkit-box-shadow: 0px 0px 10px #ededed;
+    -moz-box-shadow: 0px 0px 10px #ededed;
+}
+	
+			
+	.go-top {
+		position: fixed;
+		z-index:100000000;
+		bottom: -2em;
+		right: -3em;
+		text-decoration: none;
+		color: #fff;
+		padding: 1em;
+		display: none;
+		opacity: 0.8;
+		cursor:pointer;
+	}
+	.go-top:hover {
+	  opacity: 1;
+	}
+	.limit-width {
+		max-width:1200px;
+		margin:0 auto;
+	}
+.form-md {
+	width:100%;
+	float:left;
+}
+.form-lm {
+	width:60%;
+	float:left;
+	margin-right:5%;
+}
+.form-sm {
+	width:45%;
+	float:left;
+	margin-right:5%;
+}
+.form-xs {
+	width:30%;
+	float:left;
+	margin-right:5%;
+}
+.oculto{visibility: hidden;}
+a.disabled-link {
+		pointer-events: none;
+		cursor: default;
+	}
+
+label.error {
+	color:#c00;
+}
+/*Msg Alerta*/
+.msg-alert {
+	position:fixed;
+	z-index:100000;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.7);
+	top: 0px;
+	left: 0px;
+}
+.wrap-msg-alert	{
+	background:#fff;
+	border:5px solid #009975;
+	margin:50px auto;
+	width:100%;
+	max-width:500px;
+	padding:20px 50px;
+	height:auto;
+	display:block;
+}
+#btn-close-msg-alert {
+	border:none;
+	background:none;
+	float:right;
+	font-size:20px;
+}
+#btn-close-msg-alert:hover i {
+	color:#009975;
+}
+.hidden-block {
+	visibility:hidden;
+}

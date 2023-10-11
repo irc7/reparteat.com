@@ -1,0 +1,25 @@
+@media print {
+  /* Contenido del fichero print.css */
+  
+	footer, nav, .sidebar,.order-item-icon {
+		display: none;
+	}
+	
+	.col-sm-6 {
+		display:block !important;
+		width:100% !important;
+		float:none !important;
+		clear:both !important;
+	}
+	h1 {
+		font-size:35pt !important;
+	}
+	h4 {
+		font-size:30pt !important;
+	}
+	.col-xs-8.textRight,
+	h5,
+	.box-address-order {
+		font-size:25pt !important;
+	}  
+}

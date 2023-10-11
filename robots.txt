@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /files/articles/thumb/
+Allow: /fundacion-ihp/
+Disallow: /pdc-ihp/*
+Disallow: /template/*
+Disallow: /includes/*
+Disallow: /lib/*
+Disallow: /temp/*
+Disallow: /files/*
+Disallow: /perfil/*
+
+User-agent: Twitterbot
+Allow: /files/articles/thumb/
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: http://www.reparteat.com/sitemap_index.xml

@@ -1,0 +1,150 @@
+
+
+2022-07-05 18:39:26
+{"update_id":144096165,
+"message":{"message_id":3748,"from":{"id":5038507019,"is_bot":false,"first_name":"Ismael","username":"IsmaelRC7","language_code":"es"},"chat":{"id":5038507019,"first_name":"Ismael","username":"IsmaelRC7","type":"private"},"date":1657039167,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-07-05 19:18:33
+{"update_id":144096167,
+"message":{"message_id":3750,"from":{"id":5038507019,"is_bot":false,"first_name":"Ismael","username":"IsmaelRC7","language_code":"es"},"chat":{"id":5038507019,"first_name":"Ismael","username":"IsmaelRC7","type":"private"},"date":1657041515,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-07-05 21:53:33
+{"update_id":144096168,
+"message":{"message_id":3753,"from":{"id":5506244694,"is_bot":false,"first_name":"Acho Wey","language_code":"es"},"chat":{"id":5506244694,"first_name":"Acho Wey","type":"private"},"date":1657050814,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-07-19 21:03:43
+{"update_id":144096169,
+"message":{"message_id":4401,"from":{"id":5469946851,"is_bot":false,"first_name":"Bar Aquilino 1","language_code":"es"},"chat":{"id":5469946851,"first_name":"Bar Aquilino 1","type":"private"},"date":1658257424,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-08-27 21:12:53
+{"update_id":144096170,
+"message":{"message_id":6393,"from":{"id":1074148816,"is_bot":false,"first_name":"Jorge","last_name":"Venegas Gonzalez","language_code":"es"},"chat":{"id":1074148816,"first_name":"Jorge","last_name":"Venegas Gonzalez","type":"private"},"date":1661627575,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-09-21 20:40:06
+{"update_id":144096171,
+"message":{"message_id":7451,"from":{"id":5472613650,"is_bot":false,"first_name":"Angelius","language_code":"es"},"chat":{"id":5472613650,"first_name":"Angelius","type":"private"},"date":1663785608,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-09-30 20:35:35
+{"update_id":144096172,
+"message":{"message_id":7711,"from":{"id":914517688,"is_bot":false,"first_name":"sergi","username":"s_E_r_G_i0","language_code":"es"},"chat":{"id":914517688,"first_name":"sergi","username":"s_E_r_G_i0","type":"private"},"date":1664562936,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-09-30 20:38:26
+{"update_id":144096173,
+"message":{"message_id":7713,"from":{"id":5753347313,"is_bot":false,"first_name":"98920","last_name":"Carolina","language_code":"es"},"chat":{"id":5753347313,"first_name":"98920","last_name":"Carolina","type":"private"},"date":1664563107,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-10-02 19:59:28
+{"update_id":144096174,
+"message":{"message_id":7981,"from":{"id":5737083007,"is_bot":false,"first_name":"Antonio","language_code":"es"},"chat":{"id":5737083007,"first_name":"Antonio","type":"private"},"date":1664733570,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-10-14 20:23:25
+{"update_id":144096176,
+"message":{"message_id":8555,"from":{"id":1136208542,"is_bot":false,"first_name":"La divina","username":"M1404ra","language_code":"es"},"chat":{"id":1136208542,"first_name":"La divina","username":"M1404ra","type":"private"},"date":1665771807,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-10-24 19:48:22
+{"update_id":144096178,
+"message":{"message_id":9446,"from":{"id":848751777,"is_bot":false,"first_name":"Gpn","language_code":"es"},"chat":{"id":848751777,"first_name":"Gpn","type":"private"},"date":1666633703,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-10-24 19:48:45
+{"update_id":144096179,
+"message":{"message_id":9448,"from":{"id":775381958,"is_bot":false,"first_name":"jesuly","language_code":"es"},"chat":{"id":775381958,"first_name":"jesuly","type":"private"},"date":1666633727,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-10-24 20:07:36
+{"update_id":144096180,
+"message":{"message_id":9450,"from":{"id":5764852398,"is_bot":false,"first_name":"Raquel","last_name":"Matamoros","language_code":"es"},"chat":{"id":5764852398,"first_name":"Raquel","last_name":"Matamoros","type":"private"},"date":1666634857,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-11-11 17:13:28
+{"update_id":144096186,
+"message":{"message_id":10897,"from":{"id":1535232132,"is_bot":false,"first_name":"Juanmi B","language_code":"es"},"chat":{"id":1535232132,"first_name":"Juanmi B","type":"private"},"date":1668183209,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-12-22 07:52:56
+{"update_id":144096190,
+"message":{"message_id":16202,"from":{"id":1201393092,"is_bot":false,"first_name":"Aleh","last_name":"Barbie","language_code":"es"},"chat":{"id":1201393092,"first_name":"Aleh","last_name":"Barbie","type":"private"},"date":1671691976,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2022-12-22 07:53:04
+{"update_id":144096191,
+"message":{"message_id":16203,"from":{"id":1201393092,"is_bot":false,"first_name":"Aleh","last_name":"Barbie","language_code":"es"},"chat":{"id":1201393092,"first_name":"Aleh","last_name":"Barbie","type":"private"},"date":1671691984,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-02-10 06:18:03
+{"update_id":144096197,
+"message":{"message_id":21623,"from":{"id":1142434743,"is_bot":false,"first_name":"Raudy","last_name":"Lopez","language_code":"es"},"chat":{"id":1142434743,"first_name":"Raudy","last_name":"Lopez","type":"private"},"date":1676006283,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-03-01 04:23:20
+{"update_id":144096198,
+"message":{"message_id":23882,"from":{"id":1461920573,"is_bot":false,"first_name":"El Chino wowo","language_code":"es"},"chat":{"id":1461920573,"first_name":"El Chino wowo","type":"private"},"date":1677641000,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-05-12 06:37:23
+{"update_id":144096200,
+"message":{"message_id":27823,"from":{"id":5095067342,"is_bot":false,"first_name":"Ronaldo\ud83d\udcdb\ud83d\udcdb","language_code":"es"},"chat":{"id":5095067342,"first_name":"Ronaldo\ud83d\udcdb\ud83d\udcdb","type":"private"},"date":1683866246,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-05-19 19:16:08
+{"update_id":144096203,
+"message":{"message_id":28215,"from":{"id":6280983486,"is_bot":false,"first_name":"Meurys \ud83d\ude0c","language_code":"es"},"chat":{"id":6280983486,"first_name":"Meurys \ud83d\ude0c","type":"private"},"date":1684516569,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-07-15 06:32:22
+{"update_id":144096206,
+"message":{"message_id":31392,"from":{"id":6280983486,"is_bot":false,"first_name":"Meurys \ud83d\ude0c","language_code":"es"},"chat":{"id":6280983486,"first_name":"Meurys \ud83d\ude0c","type":"private"},"date":1689395542,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-07-15 06:33:01
+{"update_id":144096209,
+"message":{"message_id":31395,"from":{"id":6280983486,"is_bot":false,"first_name":"Meurys \ud83d\ude0c","language_code":"es"},"chat":{"id":6280983486,"first_name":"Meurys \ud83d\ude0c","type":"private"},"date":1689395581,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-09-07 21:10:26
+{"update_id":144096215,
+"message":{"message_id":33426,"from":{"id":1050943044,"is_bot":false,"first_name":"Claudia","last_name":"Pinto","language_code":"es"},"chat":{"id":1050943044,"first_name":"Claudia","last_name":"Pinto","type":"private"},"date":1694113827,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-09-13 13:15:46
+{"update_id":144096216,
+"message":{"message_id":33764,"from":{"id":6368542088,"is_bot":false,"first_name":"Repart Eat \ud83d\udef5\ud83c\udf54","language_code":"es"},"chat":{"id":6368542088,"first_name":"Repart Eat \ud83d\udef5\ud83c\udf54","type":"private"},"date":1694603747,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+
+
+
+2023-09-13 13:15:59
+{"update_id":144096217,
+"message":{"message_id":33765,"from":{"id":6368542088,"is_bot":false,"first_name":"Repart Eat \ud83d\udef5\ud83c\udf54","language_code":"es"},"chat":{"id":6368542088,"first_name":"Repart Eat \ud83d\udef5\ud83c\udf54","type":"private"},"date":1694603760,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+

@@ -1,0 +1,84 @@
+
+/*======================///////////////
+			start responsive style
+=====================///////////////////////*/
+@media(min-width:1700px ){
+	.reparteat-slider-multislide .item.video .embed-player {
+		
+	}
+}
+@media (min-width : 1550px) and (max-width : 1699px){
+	
+}
+@media (min-width : 1400px) and (max-width : 1549px){
+	
+}
+@media (min-width : 1300px) and (max-width : 1399px){
+	
+}
+@media (min-width : 1200px) and (max-width : 1299px){
+	
+}
+@media (min-width : 1100px) and (max-width : 1199px){
+	
+}
+@media (min-width : 900px) and (max-width : 1099px){
+	
+}
+@media (min-width : 768px) and (max-width : 899px){
+	
+	
+}
+@media(max-width:1399px ){
+	h2, .h2 {
+		font-size: 25px;
+	}
+	header .header-content .header-content-inner hr {
+		margin: 20px auto;
+	}
+	.header-content {
+		top:33%;
+	}
+	header .header-content .header-content-inner h1 {
+		font-size: 40px;
+	}
+	header#home {
+		-webkit-background-size: auto 100%;
+		-moz-background-size: auto 100%;
+		background-size: auto 100%;
+		-o-background-size: auto 100%;
+		background-position: top center;
+		background-repeat: no-repeat;
+		min-height:700px
+	}
+	.reparteat-slider-multislide .item {
+		min-height:700px
+	}
+	header .header-content .header-content-inner p {
+		margin-bottom: 30px;
+	}
+}
+@media(max-width:1199px ){
+	header#home {
+		-webkit-background-size: auto 100%;
+		-moz-background-size: auto 100%;
+		background-size: auto 100%;
+		-o-background-size: auto 100%;
+		background-position: top center;
+		background-repeat: no-repeat;
+		min-height:600px
+	}
+	.reparteat-slider-multislide .item {
+		min-height:600px
+	}
+}
+
+
+@media(max-width:991px ){
+	
+}
+@media(min-width:768px ){
+	.no-pc {
+		display:none;
+	}
+}

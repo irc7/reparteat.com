@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteBase /pdc-reparteat
+
+	#Serve Alternate Default Index Page 
+	DirectoryIndex index.php
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+
+
+</IfModule>

@@ -1,0 +1,89 @@
+
+/* Portrait tablets and small desktops */
+@media only screen and (max-width: 991px) {
+	.single_fun_facts {
+		font-size: 0.8em;
+	}
+	#ihp-counter-num img {
+		max-width:60%;
+	}
+	.wrap-post-last {
+		width:100%;
+	}
+	.wrap-post-last .col-sm-12 {
+		height:0px;
+	}
+	.blog-home-cleaner {display:none;}
+	
+	/*Slider home*/	
+	#ihp-home .content{
+		top: 30%;
+	}
+	
+	/*Cuarta noticia*/	
+	#ihp-news-home-3 {
+		display:block;
+	}
+	.ihp-news-home-tab {
+		display:block !important;
+	}
+	
+	/*footer*/
+	.wrap-suscribe {
+		text-align:center;
+		margin-top: 30px;
+		padding-top:20px;
+		border-top:1px solid #ee7d0c;
+	}
+	/*contenidos*/
+	.header-content img.img-responsive {
+		width:200%;
+		max-width:200%;
+	}
+	.title-article h1, .title-article h1 span {
+		font-size: 1.35em;
+	}
+	/*historia*/
+	.header-content img.header-history {
+	    margin-left: -70%;
+	}
+	.header-content img.header-docencia {
+	    margin-left: -90%;
+	}
+	.header-content img.header-cm-img {
+		margin-left: -50%;
+	}
+	.header-content img.header-blog-img  {
+		margin-left: -40%;
+	}
+	.header-content img.header-newsletter-img  {
+		margin-left: -70%;
+	}
+	.header-content img.header-news-img  {
+		margin-left: -80%;
+	}
+	.header-content img.header-te-img {
+		margin-left: -90%;
+	}
+	.wrap-goolife img {
+		width: 40%;
+		float: none;
+		margin: 0 auto;
+	}
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+	/*Menu top*/	
+	#ihp-menu.navbar-default .mnu-top.navbar-nav > li {
+		margin-left: 1.5%;
+	}
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1024px) and (orientation : landscape) {
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) and (orientation : landscape) {
+	
+}

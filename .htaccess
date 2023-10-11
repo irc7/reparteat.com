@@ -1,0 +1,59 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule .* - [e=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+	RewriteCond %{HTTPS} off
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	RewriteBase /
+	#Serve Alternate Default Index Page 
+	DirectoryIndex index.php
+	RewriteCond %{HTTP_USER_AGENT} .*DotBot.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Gigabot.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Ezooms.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SISTRIX.* [OR]
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	
+	RewriteRule ^home/?$ index.php [L]
+
+	RewriteRule ^pdc-ihp/?$ pdc-ihp/index.php [L]
+	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^perfil/?$ perfil/index.php?view=home&%1 [L]
+
+# buscador por formulario	
+#	RewriteRule ^buscar/?$ index.php?view=search
+#	RewriteRule ^buscar/([^/.]+)/([0-9-]*+)/?$ index.php?view=search&search=$1&page=$2		
+	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^buscar/?$ template/modules/supplier/search.php?%1 [L]
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^resumen-pedido/([0-9-]*+)/?$ index.php?view=order&supplier=$1%1 [L]
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^pedido-realizado/([0-9-]*+)/?$ index.php?view=order&ref=$1%1 [L]
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^tpv-virtual/([0-9-]*+)/?$ index.php?view=tpv&ref=$1%1 [L]
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^bizum/([0-9-]*+)/?$ index.php?view=bizum&ref=$1%1 [L]
+
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^restaurantes/([a-zA-Z0-9-]*+)/?$ index.php?slugbd=$1&%1 [L]	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^restaurantes/([a-zA-Z0-9-]*+)/([a-zA-Z0-9-]*+)/?$ index.php?slugsup=$1&slugbd=$2&%1 [L]	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^([a-zA-Z0-9-]*+)/?$ index.php?slugbd=$1&%1 [L]	
+	RewriteCond %{QUERY_STRING} ^(.*)$
+	RewriteRule ^([a-zA-Z0-9-]*+)/([0-9]+)?$ index.php?slugbd=$1&page=$2&%1 [L]
+# article.
+#	RewriteRule ^([a-zA-Z0-9-]*+)\_([a-zA-Z0-9-]*+)\.([html]+)/?$ index.php?code=$2 [L]
+	# article with pages.
+#	RewriteRule ^([a-zA-Z0-9-]*+)\_([a-zA-Z0-9-]*+)\.[html]+/([0-9]+)?$ index.php?code=$2&page=$3 [L]
+
+
+#	RewriteRule ^([a-zA-Z0-9-]*+)\_([a-zA-Z0-9-]*+)\_([a-zA-Z0-9-]*+)\.([html]+)/?$ index.php?code=$2&action=$3 [L]
+
+</IfModule>
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
